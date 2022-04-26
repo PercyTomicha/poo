@@ -9,6 +9,8 @@ main() {
   ..id = 2
   ..name = 'AndyGeek';
 
+  print('${emp.id} - ${emp.name}');
   emp.work();
+  print('${emp2.id} - ${emp2.name}');
   emp2.work();
 }
