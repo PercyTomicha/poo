@@ -1,4 +1,4 @@
-class Employe{
+class Employe {
   late int _id;
   late String _name;
 

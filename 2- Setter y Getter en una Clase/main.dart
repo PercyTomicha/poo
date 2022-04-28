@@ -9,8 +9,11 @@ main() {
   ..id = 2
   ..name = 'AndyGeek';
 
+  // Impresión usando Getter de la Clase
   print('${emp.id} - ${emp.name}');
-  emp.work();
   print('${emp2.id} - ${emp2.name}');
-  emp2.work();
+  // Modificando emp2 usando Setter de la Clase
+  emp2.name = 'AndyGeek Modified';
+
+  print('${emp2.id} - ${emp2.name}');
 }
