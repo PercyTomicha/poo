@@ -1,4 +1,4 @@
-# <span style="font-family:Papyrus; color: orange">**1- Clases**</span>
+# <span style="font-family:Papyrus; color: orange">**3- Herencia**</span>
 
 Para ejecutar el Programa
 

@@ -1,4 +1,4 @@
-# <span style="font-family:Papyrus; color: orange">**1- Clases**</span>
+# <span style="font-family:Papyrus; color: orange">**2- Setter y Getter en una Clase**</span>
 
 Para ejecutar el Programa
 
