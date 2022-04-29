@@ -9,4 +9,10 @@ main() {
     "y": 2
   });
   print(point2.toString());
+
+  Point point3 = Point.fromJsonV2({
+    "x": 1,
+    "y": 3
+  });
+  print(point3.toString());
 }

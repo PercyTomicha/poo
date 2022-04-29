@@ -10,6 +10,13 @@ class Point {
     y = json['y'];
   }
 
+  // Named constructor v2
+  Point.fromJsonV2(Map json)
+    : x = json['x'],
+      y = json['y']{
+      print('In Point.fromJson(): ($x, $y)');
+  }
+
   @override
   String toString() => 'x: ${x} , y : ${y}';
 }
