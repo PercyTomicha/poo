@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'point.dart';
 
 main() {
@@ -15,4 +17,10 @@ main() {
     "y": 3
   });
   print(point3.toString());
+
+  Map<String, dynamic> jsonData = jsonDecode('{"x":1, "y":4}');
+  print(jsonData);
+
+  Point point4 = Point.fromJsonV2(jsonData);
+  print(point4.toString());
 }
