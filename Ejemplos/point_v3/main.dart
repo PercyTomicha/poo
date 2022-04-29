@@ -23,4 +23,7 @@ main() {
 
   Point point4 = Point.fromJsonV2(jsonData);
   print(point4.toString());
+
+  Map<String, dynamic> jsonData2 = point1.toJson();
+  print(jsonEncode(jsonData2));
 }

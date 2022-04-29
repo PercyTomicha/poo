@@ -17,6 +17,11 @@ class Point {
       print('In Point.fromJson(): ($x, $y)');
   }
 
+  Map<String, dynamic> toJson() => {
+    'x': x,
+    'y': y,
+  };
+
   @override
   String toString() => 'x: ${x} , y : ${y}';
 }
