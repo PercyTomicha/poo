@@ -18,6 +18,7 @@ main() {
   });
   print(point3.toString());
 
+  // Map<String, dynamic> jsonData = json.decode('{"x":1, "y":4}');
   Map<String, dynamic> jsonData = jsonDecode('{"x":1, "y":4}');
   print(jsonData);
 
@@ -25,5 +26,6 @@ main() {
   print(point4.toString());
 
   Map<String, dynamic> jsonData2 = point1.toJson();
+  // print(json.encode(jsonData2));
   print(jsonEncode(jsonData2));
 }
